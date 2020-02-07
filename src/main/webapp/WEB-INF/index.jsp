@@ -7,10 +7,12 @@
 <title>Home Page</title>
 </head>
 <body>
-<p>What is the code?</p>
-<form method="POST" action="/test">
-    <input type="text" name="code">
-    <button type="submit">Try Code</button>
+<form method="POST" action="/survey">
+    <label>Your name:<input type="text" name="name"></label>
+    <label>Dojo Location:<input type="text" name="location"></label>
+    <label>Favorite Language:<input type="text" name="language"></label>
+    <textarea name="comments"></textarea>
+    <button type="submit">Submit</button>
 </form>
 </body>
 </html>
